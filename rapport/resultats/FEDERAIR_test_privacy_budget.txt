@@ -1,0 +1,5 @@
+Appel 1 : HTTP 200
+Appel 2 : HTTP 200
+Appel 3 : HTTP 200
+Appel 4 : HTTP 429
+[PASS] Budget épuisé au 4e appel (429).

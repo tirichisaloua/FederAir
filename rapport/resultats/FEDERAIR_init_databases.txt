@@ -1,0 +1,11 @@
+==================================================
+       FEDERAIR HEALTH - DATABASE SETUP
+==================================================
+
+[1/2] Initializing Environment node...
+[ENVIRONMENT] Database ready: <dossier du projet>/extension_FederAir/data/environment/environment.db
+
+[2/2] Initializing Hospital node...
+[HOSPITAL] Database ready: <dossier du projet>/extension_FederAir/data/hospital/hospital.db
+
+Database initialization completed successfully.

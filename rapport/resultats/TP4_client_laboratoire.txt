@@ -1,0 +1,21 @@
+1. Découverte du catalogue
+   Qualité de l'air - PM2.5 à Tanger
+
+2. Tests négatifs
+   Finalité commerciale : attendu 403, reçu 403
+   Jeu de données inexistant : attendu 404, reçu 404
+   Clé API incorrecte : attendu 401, reçu 401
+
+3. Demande autorisée pour la recherche
+   Accord obtenu : contract-air-57119f5b
+
+4. Récupération des classifications
+   Nombre de jours classifiés : 10
+
+5. Calcul réalisé par l'hôpital (sans bruit)
+   Pollution au-dessus du seuil : n=5, moyenne=16.2, statut=OK
+   Pollution sous le seuil : n=5, moyenne=7.8, statut=OK
+   Différence : 8.40 admissions/jour
+
+6. Test négatif : classifications falsifiées envoyées à l'hôpital
+   Attendu 403 (signature invalide), reçu 403

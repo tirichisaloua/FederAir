@@ -1,0 +1,33 @@
+
+ENVIRONMENT DATA
+---------------------------------------------
+{'date': '2026-10-01', 'city': 'Tanger', 'pm25': 12.0}
+{'date': '2026-10-02', 'city': 'Tanger', 'pm25': 35.5}
+{'date': '2026-10-03', 'city': 'Tanger', 'pm25': 42.1}
+{'date': '2026-10-04', 'city': 'Tanger', 'pm25': 15.2}
+{'date': '2026-10-05', 'city': 'Tanger', 'pm25': 38.0}
+{'date': '2026-10-06', 'city': 'Tanger', 'pm25': 45.0}
+{'date': '2026-10-07', 'city': 'Tanger', 'pm25': 22.1}
+{'date': '2026-10-08', 'city': 'Tanger', 'pm25': 18.0}
+{'date': '2026-10-09', 'city': 'Tanger', 'pm25': 31.0}
+{'date': '2026-10-10', 'city': 'Tanger', 'pm25': 11.5}
+
+HOSPITAL DATA
+---------------------------------------------
+{'date': '2026-10-01', 'city': 'Tanger', 'number_of_admissions': 8}
+{'date': '2026-10-02', 'city': 'Tanger', 'number_of_admissions': 14}
+{'date': '2026-10-03', 'city': 'Tanger', 'number_of_admissions': 18}
+{'date': '2026-10-04', 'city': 'Tanger', 'number_of_admissions': 9}
+{'date': '2026-10-05', 'city': 'Tanger', 'number_of_admissions': 16}
+{'date': '2026-10-06', 'city': 'Tanger', 'number_of_admissions': 20}
+{'date': '2026-10-07', 'city': 'Tanger', 'number_of_admissions': 10}
+{'date': '2026-10-08', 'city': 'Tanger', 'number_of_admissions': 7}
+{'date': '2026-10-09', 'city': 'Tanger', 'number_of_admissions': 13}
+{'date': '2026-10-10', 'city': 'Tanger', 'number_of_admissions': 5}
+
+INTEGRITY CHECK
+---------------------------------------------
+Environment records: 10
+Hospital records: 10
+
+All database checks passed!

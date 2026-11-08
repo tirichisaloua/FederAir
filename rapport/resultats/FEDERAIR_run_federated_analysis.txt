@@ -1,0 +1,23 @@
+[1/4] Création d'un contrat (finalité research)...
+[OK] Contrat : CONTRACT-96D27139EBD7
+[2/4] Récupération du paquet signé auprès d'Environment...
+[OK] Classifications reçues : 10
+[3/4] Transmission (inchangée) à Hospital...
+[4/4] Résultats
+
+=======================================================
+       FEDERAIR - FEDERATED ANALYSIS
+=======================================================
+Organisation : Hospital
+Règle : Minimum group size: 3
+Bruit appliqué : False | epsilon : None
+
+Catégorie : HIGH
+  Statut : OK
+  Nombre de jours : 5
+  Moyenne des admissions : 16.2
+
+Catégorie : LOW
+  Statut : OK
+  Nombre de jours : 5
+  Moyenne des admissions : 7.8

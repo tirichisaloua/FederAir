@@ -1,0 +1,31 @@
+1. Découverte du catalogue
+   Qualité de l'air - PM2.5 à Tanger
+
+2. Tests négatifs (gouvernance)
+   Finalité commerciale : attendu 403, reçu 403  [OK]
+   Jeu de données inexistant : attendu 404, reçu 404  [OK]
+   Clé API incorrecte : attendu 401, reçu 401  [OK]
+
+3. Contrat pour la recherche
+   Contrat : CONTRACT-074FC5C31BD2
+
+4. Paquet signé
+   Jours classifiés : 10
+
+5. Calcul SANS bruit
+   HIGH : n=5 moyenne=16.2
+   LOW  : n=5 moyenne=7.8
+   Différence : 8.40
+   Moyenne HIGH (81/5) : attendu 16.2, reçu 16.2  [OK]
+   Moyenne LOW (39/5) : attendu 7.8, reçu 7.8  [OK]
+
+6. Calcul AVEC bruit de Laplace (epsilon = 1)
+   HIGH : 3.09  LOW : 15.88
+
+7. Test négatif : classifications falsifiées (sous-ensemble choisi par le labo)
+   Signature falsifiée : attendu 403, reçu 403  [OK]
+
+8. Test négatif : rejeu du même paquet
+   Rejeu (nonce déjà utilisé) : attendu 409, reçu 409  [OK]
+
+RÉSULTAT : tous les contrôles sont OK

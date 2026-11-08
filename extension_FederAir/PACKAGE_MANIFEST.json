@@ -1,0 +1,31 @@
+{
+  "project": "FederAir Health",
+  "package_version": "advanced-demo-1.0",
+  "generated_at": "2026-11-07",
+  "data": {
+    "environment_rows": 2557,
+    "hospital_rows": 2557,
+    "period": "2019-01-01 to 2025-12-31",
+    "origin": "SYNTHETIC_DEMO"
+  },
+  "models": {
+    "environment_best": "RandomForest",
+    "environment_test_metrics": {
+      "mae": 2.656,
+      "rmse": 3.268,
+      "r2": 0.508
+    },
+    "hospital_best": "RandomForest",
+    "hospital_test_metrics": {
+      "mae": 1.934,
+      "rmse": 2.418,
+      "r2": 0.405
+    }
+  },
+  "notes": [
+    "No real hospital records included.",
+    "OpenAQ importer is optional and requires an API key and verified sensor ID.",
+    "ML dashboard reads precomputed artifacts from local Intelligence API.",
+    "No Federated Learning weight aggregation is implemented."
+  ]
+}

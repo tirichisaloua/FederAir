@@ -1,0 +1,4 @@
+--- Analyse régionale ---
+Pollution élevée : {'nombre_jours': 3, 'moyenne_admissions': 16.0}
+Pollution non élevée : {'nombre_jours': 2, 'moyenne_admissions': 8.5}
+Différence entre les moyennes : 7.5

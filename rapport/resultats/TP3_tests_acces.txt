@@ -1,0 +1,5 @@
+Test 1 [OK   ] /categories sans clé : attendu 401, reçu 401
+Test 2 [OK   ] /categories clé incorrecte : attendu 401, reçu 401
+Test 3 [OK   ] /categories bonne clé : attendu 200, reçu 200
+Test 4 [OK   ] /analyse-locale clé incorrecte : attendu 401, reçu 401
+Test 5 [OK   ] catégorie inconnue : attendu 400, reçu 400

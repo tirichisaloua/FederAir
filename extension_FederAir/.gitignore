@@ -1,0 +1,31 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Logs et fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Cache et tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Bases de données locales
+# Les bases de démonstration seront ajoutées explicitement si elles sont validées
+
+# Bases SQLite : INCLUSES dans le rendu (exigées par l'énoncé)

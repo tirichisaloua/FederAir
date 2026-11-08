@@ -1,0 +1,28 @@
+{
+  "environment": {
+    "RandomForest": {
+      "mae": 2.657,
+      "rmse": 3.269,
+      "r2": 0.508
+    },
+    "HistGradientBoosting": {
+      "mae": 2.787,
+      "rmse": 3.406,
+      "r2": 0.466
+    }
+  },
+  "hospital": {
+    "RandomForest": {
+      "mae": 1.934,
+      "rmse": 2.418,
+      "r2": 0.405
+    },
+    "HistGradientBoosting": {
+      "mae": 1.963,
+      "rmse": 2.469,
+      "r2": 0.38
+    }
+  },
+  "best_environment": "RandomForest",
+  "best_hospital": "RandomForest"
+}

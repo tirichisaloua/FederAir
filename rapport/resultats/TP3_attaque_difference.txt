@@ -1,0 +1,1 @@
+{'elevee': {'nombre_jours': 0, 'moyenne_admissions': None}, 'non_elevee': {'nombre_jours': 1, 'moyenne_admissions': 8.0}}
